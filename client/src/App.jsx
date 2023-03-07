@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import AllRoutes from './pages/AllRoutes';
 import Landing from './pages/Landing';
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
 
   return (
     <>
-    <Landing />
+    <AllRoutes />
     </>
   )
 }
